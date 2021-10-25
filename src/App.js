@@ -88,7 +88,7 @@ function App() {
       //console.log('nothing to update');
       return;
     }
-    console.log(data);
+    //console.log(data);
     (async () => {
       const {cid} = await ipfs.add(data);
       const cidStr = cid.toString();
